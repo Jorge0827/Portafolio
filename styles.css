@@ -362,8 +362,8 @@ body {
 
 .hero-avatar {
   position: relative;
-  width: 68px;
-  height: 68px;
+  width: 92px;
+  height: 92px;
   border-radius: 999px;
   display: flex;
   align-items: center;
@@ -381,8 +381,8 @@ body {
 
 .hero-avatar__initials {
   position: relative;
-  width: 62px;
-  height: 62px;
+  width: 84px;
+  height: 84px;
   border-radius: inherit;
   display: flex;
   align-items: center;
@@ -392,6 +392,15 @@ body {
   font-weight: 600;
   letter-spacing: 0.04em;
   font-size: 1rem;
+}
+
+.hero-avatar__img {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  border-radius: inherit;
+  object-fit: cover;
+  border: 2px solid rgba(15, 23, 42, 0.9);
 }
 
 .hero-card__info {
