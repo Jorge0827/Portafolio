@@ -362,8 +362,8 @@ body {
 
 .hero-avatar {
   position: relative;
-  width: 112px;
-  height: 112px;
+  width: 136px;
+  height: 136px;
   border-radius: 999px;
   display: flex;
   align-items: center;
@@ -381,8 +381,8 @@ body {
 
 .hero-avatar__initials {
   position: relative;
-  width: 102px;
-  height: 102px;
+  width: 124px;
+  height: 124px;
   border-radius: inherit;
   display: flex;
   align-items: center;
@@ -396,8 +396,8 @@ body {
 
 .hero-avatar__img {
   position: relative;
-  width: 102px;
-  height: 102px;
+  width: 124px;
+  height: 124px;
   border-radius: inherit;
   object-fit: cover;
   border: 2px solid rgba(15, 23, 42, 0.9);
