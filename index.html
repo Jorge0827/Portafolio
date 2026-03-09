@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jorge Andrés Echavarría | Portafolio</title>
+  <meta name="description" content="Portafolio de Jorge Andrés Echavarría Pardo, desarrollador de software especializado en Java, bases de datos SQL y Python para ciencia de datos e inteligencia artificial.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise-overlay"></div>
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">
+        <span class="logo__mark">&lt;/&gt;</span>
+        <span class="logo__text">JorgeDev</span>
+      </div>
+      <nav class="nav">
+        <a href="#sobre-mi" class="nav__link">Sobre mí</a>
+        <a href="#habilidades" class="nav__link">Habilidades</a>
+        <a href="#proyectos" class="nav__link">Proyectos</a>
+        <a href="#contacto" class="nav__link nav__link--primary">Contacto</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+        <span class="theme-toggle__icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__tag">Desarrollador de Software · Data & IA</p>
+          <h1 class="hero__title">
+            Hola, soy <span class="neon-text">Jorge Andrés Echavarría</span>
+          </h1>
+          <p class="hero__subtitle">
+            Desarrollador de software orientado al backend y a la construcción de aplicaciones empresariales.
+            Trabajo principalmente con <span class="highlight">Java</span> y <span class="highlight">Spring Boot</span>
+            para crear APIs y servicios robustos, seguros y mantenibles.
+          </p>
+          <p class="hero__subtitle hero__subtitle--muted">
+            Tengo experiencia trabajando con <span class="highlight">autenticación basada en JWT</span>, 
+            <span class="highlight">gestión de usuarios y roles</span>, 
+            <span class="highlight">bases de datos SQL</span> y 
+            <span class="highlight">Python</span> aplicado a ciencia de datos e inteligencia artificial.
+            Me enfoco en buen diseño de arquitectura, código limpio y soluciones que aporten valor al negocio.
+          </p>
+          <div class="hero__actions">
+            <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+            <a href="#contacto" class="btn btn--ghost">Hablemos</a>
+          </div>
+          <div class="hero__social">
+            <a href="mailto:jorgean0827@gmail.com" class="social-link" target="_blank" rel="noopener noreferrer">
+              <span>Correo</span>
+              <span class="social-link__value">jorgean0827@gmail.com</span>
+            </a>
+            <a href="https://github.com/Jorge0827" class="social-link" target="_blank" rel="noopener noreferrer">
+              <span>GitHub</span>
+              <span class="social-link__value">@Jorge0827</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jorge-andr%C3%A9s-echavarr%C3%ADa-pardo-94553b233" class="social-link" target="_blank" rel="noopener noreferrer">
+              <span>LinkedIn</span>
+              <span class="social-link__value">Jorge Andrés Echavarría</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero__profile">
+          <div class="hero-card">
+            <div class="hero-card__glow"></div>
+            <div class="hero-card__inner">
+              <div class="hero-avatar">
+                <div class="hero-avatar__ring"></div>
+                <div class="hero-avatar__initials">JA</div>
+              </div>
+              <div class="hero-card__info">
+                <h2 class="hero-card__name">Jorge Andrés Echavarría</h2>
+                <p class="hero-card__role">Backend Developer · Data & IA</p>
+                <p class="hero-card__location">Colombia · Remoto / Híbrido</p>
+              </div>
+              <div class="hero-card__stats">
+                <div class="stat">
+                  <span class="stat__label">Stack principal</span>
+                  <span class="stat__value">Java · Spring · SQL</span>
+                </div>
+                <div class="stat">
+                  <span class="stat__label">Intereses</span>
+                  <span class="stat__value">Data Science · ML · APIs</span>
+                </div>
+                <div class="stat">
+                  <span class="stat__label">GitHub</span>
+                  <span class="stat__value">@Jorge0827</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <div class="container section__inner">
+        <div class="section__header">
+          <h2 class="section__title">Sobre mí</h2>
+          <p class="section__subtitle">
+            Soy desarrollador de software con una base sólida en ingeniería, buenas prácticas
+            y enfoque en resultados. Me gusta construir productos que aporten valor real a las personas y los negocios.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3 class="about-card__title">¿Quién soy?</h3>
+            <p class="about-card__text">
+              Soy Jorge Andrés Echavarría Pardo, desarrollador de software en constante aprendizaje.
+              Disfruto enfrentar problemas complejos, dividirlos en partes manejables y encontrar soluciones
+              limpias y mantenibles.
+            </p>
+            <p class="about-card__text">
+              Me siento cómodo trabajando tanto en la lógica de negocio del backend como en
+              la capa de datos, y tengo un interés especial por proyectos donde los datos juegan un papel central.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3 class="about-card__title">En qué trabajo</h3>
+            <ul class="pill-list">
+              <li class="pill">Diseño y desarrollo de APIs RESTful con Java y Spring Boot</li>
+              <li class="pill">Modelado de bases de datos relacionales y consultas SQL eficientes</li>
+              <li class="pill">Integración de sistemas y manejo de autenticación/autorización</li>
+              <li class="pill">Python para análisis de datos, exploración y prototipos de IA</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3 class="about-card__title">Cómo trabajo</h3>
+            <ul class="pill-list pill-list--compact">
+              <li class="pill">Código limpio y legible</li>
+              <li class="pill">Buenas prácticas de Git y control de versiones</li>
+              <li class="pill">Pruebas y validación constante</li>
+              <li class="pill">Comunicación clara con el equipo</li>
+              <li class="pill">Curiosidad y aprendizaje continuo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section section--alt">
+      <div class="container section__inner">
+        <div class="section__header">
+          <h2 class="section__title">Habilidades técnicas</h2>
+          <p class="section__subtitle">
+            Un stack centrado en backend, bases de datos y análisis de datos, con foco en robustez y escalabilidad.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-column">
+            <h3 class="skill-column__title">Backend & Lenguajes</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-item__name">Java</span>
+                <span class="skill-item__level">APIs REST, servicios, OOP</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">Spring / Spring Boot</span>
+                <span class="skill-item__level">REST, JPA, seguridad básica</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">Python</span>
+                <span class="skill-item__level">Data Science & IA</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skill-column">
+            <h3 class="skill-column__title">Datos & Persistencia</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-item__name">SQL</span>
+                <span class="skill-item__level">Consultas, joins, agregaciones</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">JPA / Hibernate</span>
+                <span class="skill-item__level">ORM, mapeo entidad-relación</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">Diseño de bases de datos</span>
+                <span class="skill-item__level">Modelado y normalización</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skill-column">
+            <h3 class="skill-column__title">Data Science & IA</h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-item__name">Análisis de datos</span>
+                <span class="skill-item__level">Exploración y limpieza</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">Modelos de ML</span>
+                <span class="skill-item__level">Prototipos y experimentación</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-item__name">Visualización</span>
+                <span class="skill-item__level">Comunicación de insights</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="container section__inner">
+        <div class="section__header">
+          <h2 class="section__title">Proyectos destacados</h2>
+          <p class="section__subtitle">
+            Algunos proyectos que muestran mi enfoque en backend, gestión de datos y diseño de APIs.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-card__glow project-card__glow--cyan"></div>
+            <div class="project-card__inner">
+              <div class="project-card__header">
+                <h3 class="project-card__title">Customer Churn Prediction</h3>
+                <span class="project-card__tag">Python · Machine Learning · Data Science</span>
+              </div>
+              <p class="project-card__description">
+                Modelo de machine learning para predecir la fuga de clientes a partir de datos históricos,
+                permitiendo identificar patrones de comportamiento y tomar decisiones preventivas.
+              </p>
+              <ul class="project-card__features">
+                <li>Pipeline de preparación y exploración de datos</li>
+                <li>Entrenamiento y evaluación de modelos de clasificación</li>
+                <li>Enfoque en interpretación de resultados para el negocio</li>
+              </ul>
+              <div class="project-card__footer">
+                <a href="https://github.com/Jorge0827/customer-churn-prediction" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Ver en GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__glow project-card__glow--green"></div>
+            <div class="project-card__inner">
+              <div class="project-card__header">
+                <h3 class="project-card__title">Predict Diabetes ML</h3>
+                <span class="project-card__tag">Python · ML · Salud</span>
+              </div>
+              <p class="project-card__description">
+                Proyecto de machine learning para estimar el riesgo de diabetes utilizando variables clínicas,
+                enfocado en experimentación y comparación de modelos.
+              </p>
+              <ul class="project-card__features">
+                <li>Análisis exploratorio y limpieza de datos</li>
+                <li>Entrenamiento de diferentes algoritmos de clasificación</li>
+                <li>Métricas para evaluar desempeño y generalización</li>
+              </ul>
+              <div class="project-card__footer">
+                <a href="https://github.com/Jorge0827/pedrict_diabetes_ML" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Ver en GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__glow project-card__glow--purple"></div>
+            <div class="project-card__inner">
+              <div class="project-card__header">
+                <h3 class="project-card__title">Personal Finance</h3>
+                <span class="project-card__tag">Python · Datos · Visualización</span>
+              </div>
+              <p class="project-card__description">
+                Herramienta para analizar y visualizar finanzas personales, con foco en entender hábitos de gasto
+                y apoyar la toma de decisiones financieras.
+              </p>
+              <ul class="project-card__features">
+                <li>Procesamiento y categorización de transacciones</li>
+                <li>Indicadores básicos de ingresos, gastos y ahorro</li>
+                <li>Gráficas y visualizaciones para comunicar insights</li>
+              </ul>
+              <div class="project-card__footer">
+                <a href="https://github.com/Jorge0827/personal-finance" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Ver en GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__glow project-card__glow--cyan"></div>
+            <div class="project-card__inner">
+              <div class="project-card__header">
+                <h3 class="project-card__title">Stationery App</h3>
+                <span class="project-card__tag">Java · Spring Boot · SQL</span>
+              </div>
+              <p class="project-card__description">
+                Aplicación para la gestión de una papelería, con enfoque en control de productos, inventario
+                y operaciones del día a día del negocio.
+              </p>
+              <ul class="project-card__features">
+                <li>Manejo de productos, categorías e inventario</li>
+                <li>Persistencia en base de datos relacional</li>
+                <li>Base para futuras funcionalidades empresariales</li>
+              </ul>
+              <div class="project-card__footer">
+                <a href="https://github.com/Jorge0827/stationery-app" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Ver en GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="section__cta">
+          <a href="https://github.com/Jorge0827" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">
+            Ver todos mis repositorios
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section--alt">
+      <div class="container section__inner">
+        <div class="section__header">
+          <h2 class="section__title">Contacto</h2>
+          <p class="section__subtitle">
+            ¿Tienes una idea, un proyecto o una oportunidad? Me encantaría conversar.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3 class="contact-card__title">Conectemos</h3>
+            <p class="contact-card__text">
+              Estoy abierto a colaborar en proyectos, participar en equipos de desarrollo
+              o explorar nuevas oportunidades profesionales.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-list__label">Correo</span>
+                <a href="mailto:jorgean0827@gmail.com" class="contact-list__value">jorgean0827@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-list__label">GitHub</span>
+                <a href="https://github.com/Jorge0827" target="_blank" rel="noopener noreferrer" class="contact-list__value">
+                  github.com/Jorge0827
+                </a>
+              </li>
+              <li>
+                <span class="contact-list__label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/jorge-andr%C3%A9s-echavarr%C3%ADa-pardo-94553b233" target="_blank" rel="noopener noreferrer" class="contact-list__value">
+                  Ver perfil
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-card contact-card--form">
+            <h3 class="contact-card__title">Envíame un mensaje</h3>
+            <p class="contact-card__text">
+              Este formulario es solo visual por ahora. Puedes copiar el mensaje y enviármelo por correo o redes.
+            </p>
+            <form class="contact-form" onsubmit="event.preventDefault();">
+              <div class="contact-form__group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" placeholder="Tu nombre">
+              </div>
+              <div class="contact-form__group">
+                <label for="email">Correo</label>
+                <input type="email" id="email" placeholder="tunombre@ejemplo.com">
+              </div>
+              <div class="contact-form__group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" rows="4" placeholder="Cuéntame sobre tu proyecto o idea"></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full">Copiar mensaje (próximamente)</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__text">
+        Diseñado y desarrollado por <span class="neon-text">Jorge Andrés Echavarría</span>.
+      </p>
+      <p class="footer__text footer__text--muted">
+        Backend · Data · IA · Siempre aprendiendo.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
